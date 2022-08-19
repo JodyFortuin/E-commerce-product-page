@@ -1,0 +1,147 @@
+.main{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.maintext{
+    padding-left: 260px;
+    width: 450px;
+}
+
+#mainImg{
+    border-radius: 15px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.thumbnail{
+    border-radius: 10px;
+}
+
+.thumbails{
+    justify-content: space-around;
+}
+
+#w {
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+hr{
+    color: red;
+}
+
+.nav{
+    display: flex;
+    padding-left: 160px;
+    padding-bottom: 25px;
+}
+
+.texttop{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: grey;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.textbody{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: grey;
+    font-size: 16px;
+}
+
+.d{
+    display: inline-flex;
+}
+
+.cartavatar{
+    float: right;
+    padding-top: 25px;
+    padding-right: 150px;
+}
+
+.icon-cart{
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.f{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;  
+}
+
+.cart-button{
+    padding-right: 15px;
+}
+
+.button {
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+
+.header{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(26, 100%, 55%);
+}
+
+.subheader {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.plusminus{
+    display: flex;
+}
+
+.counter{
+    padding: 10px;
+}
+
+.topbar{
+    display: flex;
+}
+
+.logo{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.price{
+    display: flex;
+}
+
+.price1{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.discount{
+    color: hsl(26, 100%, 55%);
+    padding-left:15px;
+    padding-top: 6px;
+    font-size: 15px;
+}
+
+.price2{
+    font-size: 12px;
+}
+
+.bottomtext{
+    display: flex;
+}
