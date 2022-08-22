@@ -1,14 +1,61 @@
+/*Global*/
+.font{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+p{
+    margin:0;
+}
+
+/*Navigation Bar*/
+.navbar{
+    display: flex;
+    padding-left: 160px;
+    padding-bottom: 25px;
+}
+
+.inline{
+    display: inline-flex;
+}
+
+
+.logo{
+    height:1.4em;
+    padding-top: 1.9em;
+    padding-right: 20px;
+}
+
+.nav-item{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color: grey;
+    padding-top: 2em;
+    padding-left: 30px;
+}
+
+.cart-avatar{
+    float: right;
+    padding-top: 1em;
+    padding-right: 10em;
+}
+
+.icon-cart{
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+hr{
+    margin-top: 1.5em;
+}
+
+/*Body*/
+/*Product Images*/
 .main{
     display: flex;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 7vh;
     padding-left: 200px;
     padding-right: 200px;
-}
-
-.maintext{
-    padding-left: 260px;
-    width: 450px;
 }
 
 #mainImg{
@@ -17,35 +64,41 @@
     justify-content: center;
 }
 
-.thumbnail{
-    border-radius: 10px;
-}
-
 .thumbails{
     justify-content: space-around;
 }
 
-#w {
-    margin-top: 20px;
-    margin-right: 15px;
+.thumbnail{
+    border-radius: 10px;
 }
 
-hr{
-    color: red;
+#thumbnail {
+    margin-top: 22px;
+    margin-right: 22px;
 }
 
-.nav{
-    display: flex;
-    padding-left: 160px;
-    padding-bottom: 25px;
+/*Body*/
+/*Body Text*/
+.maintext{
+    padding-top: 2.5em;
+    padding-left: 180px;
+    width: 450px;
 }
 
-.texttop{
+.header{
     font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 400;
-    color: grey;
-    padding-top: 20px;
-    padding-left: 30px;
+    font-weight: 700;
+    color: hsl(26, 100%, 55%);
+    font-size: 12px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.subheader {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0.8em;
 }
 
 .textbody{
@@ -53,30 +106,77 @@ hr{
     font-weight: 400;
     color: grey;
     font-size: 16px;
+    margin-bottom: 1.5em;
 }
 
-.d{
-    display: inline-flex;
+/*Body*/
+/*Price*/
+.pricediv{
+    margin-bottom: 2em;
 }
 
-.cartavatar{
-    float: right;
-    padding-top: 25px;
-    padding-right: 150px;
+.price1wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
 }
 
-.icon-cart{
-    padding-top: 10px;
-    padding-right: 40px;
+.price1{
+    font-weight: 700;
+    font-size: 30px;
 }
 
-.f{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 400;  
+.discount{
+    color: hsl(26, 100%, 55%);
+    margin-left:1em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 5px;
 }
 
-.cart-button{
-    padding-right: 15px;
+.price2wrapper{
+}
+
+.price2{
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: line-through;
+    color:grey;
+}
+
+/*Body*/
+/*Buttons*/
+.bottomtext{
+    display: flex;
+}
+
+.plusminus{
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-right: 1em;
+    height: 3em;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.minus{
+
+}
+
+.counter{
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+.plus{
+
 }
 
 .button {
@@ -85,63 +185,17 @@ hr{
     color: white;
     padding-left: 70px;
     padding-right: 70px;
-    margin-top: 20px;
+    height: 3.5em;
     text-align: center;
     text-decoration: none;
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 8px;
-  }
-
-.header{
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 400;
-    color: hsl(26, 100%, 55%);
+    align-items: center;
 }
 
-.subheader {
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 700;
-    font-size: 35px;
+.cart-button{
+    padding-right: 1em;
+    height:1em;
 }
-
-.plusminus{
-    display: flex;
-}
-
-.counter{
-    padding: 10px;
-}
-
-.topbar{
-    display: flex;
-}
-
-.logo{
-    padding-top: 20px;
-    padding-right: 20px;
-}
-
-.price{
-    display: flex;
-}
-
-.price1{
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.discount{
-    color: hsl(26, 100%, 55%);
-    padding-left:15px;
-    padding-top: 6px;
-    font-size: 15px;
-}
-
-.price2{
-    font-size: 12px;
-}
-
-.bottomtext{
-    display: flex;
-}
+/**/
